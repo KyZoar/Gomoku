@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.aspectj.source_1.8.13.201803231521.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.aspectj_1.8.13.201803231521.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.eclipse.ajdt.source_2.2.4.201803231521.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.eclipse.ajdt_2.2.4.201803231521.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.eclipse.contribution.weaving.source_2.2.4.201803231521.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.eclipse.contribution.weaving_2.2.4.201803231521.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.eclipse.contribution.xref.source_2.2.4.201803231521.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.eclipse.contribution.xref_2.2.4.201803231521.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.eclipse.equinox.weaving.sdk_1.2.0.201803231521.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
