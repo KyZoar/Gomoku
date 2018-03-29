@@ -6,9 +6,9 @@
  * If we meet some day, and you think this is worth it
  * you can make me a cup of tea in return. 
  */
-package gomoku.core.model;
+package core.model;
 
-import gomoku.core.Player;
+import core.Player;
 
 public class Spot {
 

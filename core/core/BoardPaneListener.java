@@ -6,9 +6,9 @@
  * If we meet some day, and you think this is worth it
  * you can make me a cup of tea in return. 
  */
-package gomoku.core;
+package core;
 
-import gomoku.core.model.Spot;
+import core.model.Spot;
 
 public interface BoardPaneListener {
 	/**

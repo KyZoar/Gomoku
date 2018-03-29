@@ -6,13 +6,13 @@
  * If we meet some day, and you think this is worth it
  * you can make me a cup of tea in return. 
  */
-package gomoku.core.model;
+package core.model;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import gomoku.core.GridChangeListener;
-import gomoku.core.Player;
+import core.GridChangeListener;
+import core.Player;
 
 public class Grid {
 	private static final int DEFAULT_BOARD_SIZE = 15;

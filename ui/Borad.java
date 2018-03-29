@@ -6,13 +6,11 @@
  * If we meet some day, and you think this is worth it
  * you can make me a cup of tea in return. 
  */
-package gomoku.ui;
-
-import gomoku.core.BoardPaneListener;
-import gomoku.core.GridChangeListener;
-import gomoku.core.Player;
-import gomoku.core.model.Grid;
-import gomoku.core.model.Spot;
+import core.BoardPaneListener;
+import core.GridChangeListener;
+import core.Player;
+import core.model.Grid;
+import core.model.Spot;
 import javafx.event.EventHandler;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;

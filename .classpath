@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="aspects"/>
+	<classpathentry kind="src" path="core"/>
+	<classpathentry kind="src" path="ui"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.aspectj.source_1.8.13.201803231521.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Marion/eclipse/java-oxygen/eclipse/features/org.aspectj_1.8.13.201803231521.jar"/>
