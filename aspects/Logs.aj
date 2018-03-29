@@ -12,24 +12,23 @@ public aspect Logs {
 	String filename = "Logs.txt";
 	ArrayList<Integer> xRed   = new ArrayList<Integer>();
 	ArrayList<Integer> yRed   = new ArrayList<Integer>();
-	ArrayList<Integer> xGreen = new ArrayList<Integer>();
-	ArrayList<Integer> yGreen = new ArrayList<Integer>();
+	ArrayList<Integer> xBlue = new ArrayList<Integer>();
+	ArrayList<Integer> yBlue = new ArrayList<Integer>();
 	
 	pointcut captureCallParameters(int x, int y, Player player) : 
 	      call(void Grid.placeStone(int,int,Player)) && 
 	      args(x,y,player);
 	
-	   // Advice declaration
 	   before(int x,int y, Player player) : captureCallParameters(x,y,player)
 	   {
 		   System.out.println(player.getName() + " pose en (" + x + ", " + y+ ")");
-		   if(player.getName().equals("Mr. Red")){
+		   if(player.getName().equals("Red")){
 			   xRed.add(x);
 			   yRed.add(y);
 		   }
-		   else if(player.getName().equals("Mr. Green")) {
-			   xGreen.add(x);
-			   yGreen.add(y);
+		   else if(player.getName().equals("Blue")) {
+			   xBlue.add(x);
+			   yBlue.add(y);
 		   }
 		   
 		   try
@@ -52,12 +51,12 @@ public aspect Logs {
 		 try
 		   {
 		       FileWriter fw = new FileWriter(filename,true);
-		       fw.write("Game Over ------> Mr. Green played : ");
-		       for(int i = 0; i < xGreen.size(); i++) {
-				fw.write("(" + xGreen.get(i)+","+yGreen.get(i)+") ; ");
+		       fw.write("Game Over ! Blue a joue les coups suivant : ");
+		       for(int i = 0; i < xBlue.size(); i++) {
+				fw.write("(" + xBlue.get(i)+","+yBlue.get(i)+") ; ");
 		       }
 		       fw.write("\n");
-		       fw.write("Game Over ------> Mr. Red played : ");
+		       fw.write("Game Over ! Red a joue les coups suivant : ");
 		       for(int i = 0; i < xListRed.size(); i++) {
 				fw.write("(" + xRed.get(i)+","+yRed.get(i)+") ; ");
 		       }
