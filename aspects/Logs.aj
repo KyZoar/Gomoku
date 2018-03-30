@@ -1,11 +1,9 @@
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
-import javafx.stage.Stage;
 import core.Player;
 import core.model.*;
 import core.GridChangeListener;
-import ui.App;
 import javafx.scene.paint.Color;
 
 public aspect Logs {
@@ -57,7 +55,7 @@ public aspect Logs {
 		       }
 		       fw.write("\n");
 		       fw.write("Game Over ! Red a joue les coups suivant : ");
-		       for(int i = 0; i < xListRed.size(); i++) {
+		       for(int i = 0; i < xRed.size(); i++) {
 				fw.write("(" + xRed.get(i)+","+yRed.get(i)+") ; ");
 		       }
 		       fw.write("\n");

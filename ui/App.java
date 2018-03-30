@@ -28,7 +28,7 @@ public class App extends Application {
 		primaryStage.setTitle("Gomoku Game!");
 
 		Canvas playGround = new Borad(this.gameGrid, this::makeMove); // In Java 8, ceci is the equivalent of
-																			// passing a ref to a methode (lambda exp et
+		// passing a ref to a methode (lambda exp et
 																			// InnerClasse)
 		BorderPane root = new BorderPane();
 		root.setCenter(playGround);

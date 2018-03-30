@@ -1,0 +1,14 @@
+Blue pose en (4, 7)
+Red pose en (5, 6)
+Blue pose en (5, 7)
+Red pose en (5, 8)
+Blue pose en (6, 8)
+Red pose en (6, 7)
+Blue pose en (7, 7)
+Red pose en (7, 8)
+Blue pose en (7, 9)
+Red pose en (8, 9)
+Blue pose en (8, 10)
+Red pose en (9, 10)
+Game Over ! Blue a joue les coups suivant : (4,7) ; (5,7) ; (6,8) ; (7,7) ; (7,9) ; (8,10) ; 
+Game Over ! Red a joue les coups suivant : (5,6) ; (5,8) ; (6,7) ; (7,8) ; (8,9) ; (9,10) ; 
